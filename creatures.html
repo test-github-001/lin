@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Существа - Мир Темного Фэнтези</title>
+    <style>
+        .section-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .section {
+            width: 45%;
+            background-color: black;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            text-align: center;
+        }
+
+        .section img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .section h2 {
+            color: white;
+        }
+
+        .section p {
+            line-height: 1.6;
+            color: white;
+        }
+    </style>
+</head>
+<body style="background-image: url('https://cdna.artstation.com/p/assets/images/images/069/822/914/large/tika-concept-behdx-dehkhoda-a-dark-fantasy-place-purple-ar-169-styli-bd9904b0.jpg?1701103756'); font-family: Arial, sans-serif; background-color: #f5f5f5; margin: 0; padding: 0;">
+
+    <header style="background-color: purple; color: black; text-align: center; padding: 10px 0;">
+        <h1 style="margin: 0; font-size: 2em">Существа</h1>
+        <p>Мир темного фэнтези населен множеством мифических существ, монстров, демонов и других аномальных существ.</p>
+    </header>
+<div class="creatures">
+    <div class="section-container">
+        <section class="section">
+            <h2>Введение</h2>
+            <p>Эти существа могут быть как добрыми, так и злыми, и они часто играют важную роль в истории.</p>
+        </section>
+
+        <section class="section">
+            <img src="data:image/jpeg;base64,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" alt="Разнообразие существ">
+            <h2>Разнообразие существ</h2>
+            <p>В этом разделе мы рассмотрим различных существ, которые обитают в мире темного фэнтези.</p>
+            <p>Мы рассмотрим их происхождение, их силы и слабости, а также то, как они взаимодействуют с другими существами и миром.</p>
+        </section>
+    </div>
+
+    <div class="section-container">
+        <section class="section">
+            <img src="https://img.stablecog.com/insecure/256w/aHR0cHM6Ly9iLnN0YWJsZWNvZy5jb20vOTI5M2ViMWQtOTU0NC00OTIzLTg5MTgtMDgxM2I0ZDk0NjZmLmpwZWc.webp" alt="Лесные Духи">
+            <h2>Лесные Духи</h2>
+            <p>Лесные духи - загадочные существа, защищающие древние леса и связанные с природой. Изучите их связь с растительным миром и их роль в сохранении экосистемы.</p>
+        </section>
+
+        <section class="section">
+            <img src="https://avatars.mds.yandex.net/get-shedevrum/12994731/b82ee372e1bd11ee843226d079e580b2/orig" alt="Подземные Жители">
+            <h2>Подземные Жители</h2>
+            <p>Подземные жители - таинственные создания, обитающие в глубинах земли. Исследуйте их обычаи, технологии и взаимоотношения с другими расами.</p>
+        </section>
+    </div>
+</div>
+</body>
+</html>
